@@ -1,0 +1,4 @@
+2020-11-18 14:54:39.4234|DEBUG|ChatLog.TextConsoleLogger|11/18/2020 2:54:39 PM - Server: tt
+2020-11-18 14:54:42.1190|DEBUG|ChatLog.TextConsoleLogger|11/18/2020 2:54:42 PM - Client: e
+2020-11-18 14:58:10.4397|INFO|ChatLog.TextConsoleLogger|11/18/2020 2:58:10 PM - Server: rrfg
+2020-11-18 14:58:56.6582|INFO|ChatLog.TextConsoleLogger|11/18/2020 2:58:56 PM - Client: test

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quizzer</string>
+    <string name="enterNameTxt">Enter Your Name</string>
+    <string name="BeginQuizTxt">Begin Quiz</string>
+    <string name="submitBtn">Submit</string>
+    <string name="retryBtn">Retry</string>
+    <string name="resetBtn">Reset</string>
+</resources>

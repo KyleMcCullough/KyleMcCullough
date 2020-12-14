@@ -1,0 +1,35 @@
+C:\Users\Student\source\repos\VSHelloWorld\Assignments\Assignment1\ChatLib\bin\Debug\ChatLib.dll
+C:\Users\Student\source\repos\VSHelloWorld\Assignments\Assignment1\ChatLib\bin\Debug\ChatLib.pdb
+C:\Users\Student\source\repos\VSHelloWorld\Assignments\Assignment1\ChatLib\obj\Debug\ChatLib.csprojAssemblyReference.cache
+C:\Users\Student\source\repos\VSHelloWorld\Assignments\Assignment1\ChatLib\obj\Debug\ChatLib.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\VSHelloWorld\Assignments\Assignment1\ChatLib\obj\Debug\ChatLib.dll
+C:\Users\Student\source\repos\VSHelloWorld\Assignments\Assignment1\ChatLib\obj\Debug\ChatLib.pdb
+C:\Users\Student\Desktop\Assignment1Starter\ChatLib\bin\Debug\ChatLib.dll
+C:\Users\Student\Desktop\Assignment1Starter\ChatLib\bin\Debug\ChatLib.pdb
+C:\Users\Student\Desktop\Assignment1Starter\ChatLib\obj\Debug\ChatLib.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\Assignment1Starter\ChatLib\obj\Debug\ChatLib.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Assignment1Starter\ChatLib\obj\Debug\ChatLib.dll
+C:\Users\Student\Desktop\Assignment1Starter\ChatLib\obj\Debug\ChatLib.pdb
+E:\Github repositories\McCullough-Kyle\Assignments\AssignmentOne\ChatLib\bin\Debug\ChatLib.dll
+E:\Github repositories\McCullough-Kyle\Assignments\AssignmentOne\ChatLib\bin\Debug\ChatLib.pdb
+E:\Github repositories\McCullough-Kyle\Assignments\AssignmentOne\ChatLib\obj\Debug\ChatLib.csprojAssemblyReference.cache
+E:\Github repositories\McCullough-Kyle\Assignments\AssignmentOne\ChatLib\obj\Debug\ChatLib.csproj.CoreCompileInputs.cache
+E:\Github repositories\McCullough-Kyle\Assignments\AssignmentOne\ChatLib\obj\Debug\ChatLib.dll
+E:\Github repositories\McCullough-Kyle\Assignments\AssignmentOne\ChatLib\obj\Debug\ChatLib.pdb
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment1\ChatLib\bin\Debug\ChatLib.dll
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment1\ChatLib\bin\Debug\ChatLib.pdb
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment1\ChatLib\obj\Debug\ChatLib.csproj.CoreCompileInputs.cache
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment1\ChatLib\obj\Debug\ChatLib.dll
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment1\ChatLib\obj\Debug\ChatLib.pdb
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\ChatLib\bin\Debug\ChatLib.dll
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\ChatLib\bin\Debug\ChatLib.pdb
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\ChatLib\obj\Debug\ChatLib.csprojAssemblyReference.cache
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\ChatLib\obj\Debug\ChatLib.csproj.CoreCompileInputs.cache
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\ChatLib\obj\Debug\ChatLib.dll
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\ChatLib\obj\Debug\ChatLib.pdb
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment3\ChatLib\bin\Debug\ChatLib.dll
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment3\ChatLib\bin\Debug\ChatLib.pdb
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment3\ChatLib\obj\Debug\ChatLib.csprojAssemblyReference.cache
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment3\ChatLib\obj\Debug\ChatLib.csproj.CoreCompileInputs.cache
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment3\ChatLib\obj\Debug\ChatLib.dll
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment3\ChatLib\obj\Debug\ChatLib.pdb

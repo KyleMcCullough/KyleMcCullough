@@ -1,0 +1,15 @@
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\bin\Debug\Assignment2.exe.config
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\bin\Debug\Assignment2.exe
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\bin\Debug\Assignment2.pdb
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.csprojAssemblyReference.cache
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.GameScreen.resources
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.Properties.Resources.resources
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.GenerateResource.cache
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.CoreCompileInputs.cache
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.exe
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.pdb
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\bin\Debug\ChatLib.dll
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\bin\Debug\ChatLib.pdb
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.CopyComplete
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\bin\Debug\ChatLog.dll
+E:\Github repositories\McCullough-Kyle\Assignments\Assignment2\Assignment2\bin\Debug\ChatLog.pdb

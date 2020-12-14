@@ -1,0 +1,72 @@
+10/31/2020 11:25:58 AM- Client connected to server at 127.0.0.1 port 5555
+10/31/2020 11:26:01 AM Server:esfsef
+10/31/2020 11:26:04 AM Client:wwdwd
+
+
+10/31/2020 11:30:14 AM- Client connected to server at 127.0.0.1 port 5555
+10/31/2020 11:30:17 AM Client: Hello there
+10/31/2020 11:30:19 AM Server: No
+10/31/2020 11:30:25 AM Client: Okay, goodbye
+10/31/2020 11:30:32 AM- Client has disconnected, session has ended.
+
+
+10/31/2020 11:32:00 AM- Client connected to server at 127.0.0.1 port 5555
+10/31/2020 11:32:05 AM Client: ttt
+10/31/2020 11:32:06 AM Server: no
+10/31/2020 11:32:12 AM- Client has disconnected, session has ended.
+
+
+10/31/2020 11:34:27 AM- Client connected to server at 127.0.0.1 port 5555
+10/31/2020 11:34:28 AM Client: wdwwd
+10/31/2020 11:34:30 AM Server: wdw
+10/31/2020 11:34:34 AM- Client has disconnected, session has ended.
+
+
+11/2/2020 1:45:32 PM - Client connected to server at 127.0.0.1 port 5555
+11/2/2020 1:45:43 PM - Client: Hi Server.
+11/2/2020 1:45:50 PM - Server: Hi client.
+11/2/2020 1:46:01 PM - Client has disconnected, session has ended.
+
+
+11/2/2020 1:46:42 PM - Client connected to server at 127.0.0.1 port 5555
+11/2/2020 1:46:56 PM - Server: Hi, Client.
+11/2/2020 1:47:02 PM - Client: Hello Server.
+
+
+11/2/2020 1:47:59 PM - Client connected to server at 127.0.0.1 port 5555
+11/2/2020 1:48:04 PM - Client: Heu
+
+
+11/18/2020 1:32:36 PM - Client connected to server at 127.0.0.1 port 5555
+11/18/2020 1:32:40 PM - Client: test
+11/18/2020 1:32:41 PM - Server: te
+
+
+11/18/2020 2:40:11 PM - Client connected to server at 127.0.0.1 port 5555
+
+
+11/18/2020 2:43:19 PM - Client connected to server at 127.0.0.1 port 5555
+
+
+11/18/2020 2:47:54 PM - Client connected to server at 127.0.0.1 port 5555
+
+
+11/18/2020 2:54:36 PM - Client connected to server at 127.0.0.1 port 5555
+
+
+11/18/2020 2:55:31 PM - Client connected to server at 127.0.0.1 port 5555
+
+
+11/18/2020 2:58:08 PM - Client connected to server at 127.0.0.1 port 5555
+
+
+11/18/2020 3:00:33 PM - Client connected to server at 127.0.0.1 port 5555
+
+
+11/18/2020 3:01:03 PM - Client connected to server at 127.0.0.1 port 5555
+
+
+11/18/2020 3:01:35 PM - Client connected to server at 127.0.0.1 port 5555
+
+
+11/18/2020 3:02:24 PM - Client connected to server at 127.0.0.1 port 5555

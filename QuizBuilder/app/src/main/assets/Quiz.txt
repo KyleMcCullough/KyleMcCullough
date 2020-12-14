@@ -1,0 +1,10 @@
+This represents a single screen with a user interface.~*activity~play~screen~act
+The library where components such as Activity and AlertDialog are defined.~*app~util~view~widget
+This locates an appropriate component to respond to the intent, launches a new instance of the component if one is needed, and passes it the Intent object.~*Android Operating System~Hash Map~View~Kernel
+In object-oriented programming (OOP), this is an un-named class declared entirely within the body of another class or interface. Often use for UI event handling.~*Anonymous inner~inner class~Anonymous function~declared function
+This supplies structured access to data managed by the application.~*Content provider~Data manager~Content manager~Data provider
+This is a data structure that maps identifying values, known as keys, to associated values.~*hash table/hash map~array~list~database
+You can use these to start activities, services, and broadcast receivers.~*intent~bundle~starter~initializer
+A file describing the contents, permissions and other attributes of an Android application package.~*Manifest~appLocale~Resource~String.xml
+This includes tools developers use to create applications for Android OS based phones, and other devices.~*SDK~SUK~CDK~CIK
+The library where components such as Random and List are defined.~*util~view~widget~app
