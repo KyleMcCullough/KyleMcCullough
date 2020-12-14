@@ -1,0 +1,13 @@
+The Quizbuilder application was quite a big assignment, as I have never touched Hashmaps before. The concept around them was 
+relatively simple around though so it wasn't too much trouble. I am quite happy with how the backend of the project works. I 
+am more conflicted about the frontend side of things however, because I feel like im severely lacking when it comes to the
+visual elements of a project. I have a good concept of what I would like to do in my head, but I always struggle to get it 
+up to my personal expectations.
+
+I'd say around 50% of my time spent on the projects was on the visual side of things. The visuals went through numerous revisions
+until I found something I found acceptable. As such, I definetely need to work more on that side of things. Unlike with the GUI Messager, 
+I cannot think of any backend changes I would make off the top of my head but I'm sure there would be quite a bit of things I would change
+if I analyzed the code itself more in-depth.
+
+The one thing I'm sure about is there are lots of improvements that could be made in relation to the resolution and the responsiveness of the 
+application as a whole.

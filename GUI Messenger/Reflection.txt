@@ -1,0 +1,10 @@
+Making the GUI messager itself required quite a bit of thinking as it was my first time doing anything like it. 
+It introduced me to many new concepts, some I'm sure that weren't the best implementation. I spent quite alot
+of effort making sure the end product was as good as possible as evidenced by my high marks for it, but there is defintely
+still some room for improvement. 
+
+The Windows form part of the project is good the way it is, it could use some slight adjustment to make it better looking but nothing major.
+I feel like the way I handled the events could have been streamlined to make it both cleaner and more efficent. I also didn't really plan 
+much out before starting the development process, which would have been better in the long run as it just would've saved a bit of time.
+
+But in general, I am happy with the finished product even if it is a little rough around the edges. 
