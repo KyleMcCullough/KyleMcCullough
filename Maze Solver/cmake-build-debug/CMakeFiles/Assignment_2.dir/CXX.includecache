@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Github repositories/assignment-2-KyleMcCullough/src/Node.h
+iostream
+-
+Position.h
+E:/Github repositories/assignment-2-KyleMcCullough/src/Position.h
+
+E:/Github repositories/assignment-2-KyleMcCullough/src/Position.h
+
+E:/Github repositories/assignment-2-KyleMcCullough/src/Stack.h
+Node.h
+E:/Github repositories/assignment-2-KyleMcCullough/src/Node.h
+
+E:/Github repositories/assignment-2-KyleMcCullough/src/main.cpp
+iostream
+-
+fstream
+-
+Stack.h
+E:/Github repositories/assignment-2-KyleMcCullough/src/Stack.h
+string
+-
+
