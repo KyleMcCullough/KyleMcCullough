@@ -1,0 +1,82 @@
+﻿<Page
+    x:Class="LocalNote.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LocalNote"
+    xmlns:models="using:LocalNote.Models"
+    xmlns:viewmodels="using:LocalNote.ViewModels"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <viewmodels:NotesViewModel/>
+    </Page.DataContext>
+
+    
+    
+    <Page.Resources>
+        <CollectionViewSource x:Name="NotesCollection" 
+                  Source="{x:Bind NotesVM.Notes}">
+        </CollectionViewSource>
+
+        <DataTemplate x:Name="NotesTemplate" x:DataType="models:NoteModel">
+            <StackPanel Orientation="Horizontal" Margin="6">
+                <TextBlock Text="{x:Bind Title}"></TextBlock>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+
+    <Page.TopAppBar>
+        <CommandBar>
+            <CommandBar.Content>
+                <TextBlock Text="{x:Bind NotesVM.NoteTitle, Mode=TwoWay}" Margin="12,14"/>
+            </CommandBar.Content>
+            <AppBarButton Icon="Add" Label="Add" Command="{x:Bind NotesVM.AddCommand}"></AppBarButton>
+            <AppBarButton Icon="Save" Label="Save" Command="{x:Bind NotesVM.SaveCommand}" CommandParameter="{x:Bind noteTextbox}"></AppBarButton>
+            <AppBarButton Icon="Edit" Label="Edit" Command="{x:Bind NotesVM.EditCommand}" CommandParameter="{x:Bind noteTextbox}"></AppBarButton>
+            <AppBarSeparator/>
+
+            <AppBarButton Icon="Delete" Label="Delete" Command="{x:Bind NotesVM.DeleteCommand}"></AppBarButton>
+
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="About" Command="{x:Bind NotesVM.AboutCommand}"></AppBarButton>
+                <AppBarButton Label="Exit" Command="{x:Bind NotesVM.ExitCommand}"></AppBarButton>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.TopAppBar>
+
+    
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="280"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox PlaceholderText="Search here..." Text="{x:Bind NotesVM.Filter, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" x:Name="searchBox" Grid.Column="0" Grid.Row="0" FontSize="24"/>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="0">
+            <ListView VerticalAlignment="Top"
+                ItemsSource="{Binding Source={StaticResource NotesCollection}}"
+                ItemTemplate="{Binding Source={StaticResource NotesTemplate}}"
+                SelectedItem="{x:Bind NotesVM.SelectedNote, Mode=TwoWay}"/>
+        </ScrollViewer>
+
+
+        <ScrollViewer Grid.Row="0" Grid.Column="1" Grid.RowSpan="2">
+            <TextBox  x:Name="noteTextbox" Text="{x:Bind NotesVM.NoteText, Mode=TwoWay}" PlaceholderText="Type your note here..." IsSpellCheckEnabled="True"  
+                      AcceptsReturn="True" TextWrapping="Wrap" IsReadOnly="True" FontSize="16"/>
+        </ScrollViewer>
+
+
+        
+        
+    </Grid>
+</Page>

@@ -1,0 +1,83 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="LocalNote.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LocalNote"
+    xmlns:models="using:LocalNote.Models"
+    xmlns:viewmodels="using:LocalNote.ViewModels"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.DataContext>
+        <viewmodels:NotesViewModel/>
+    </Page.DataContext>
+
+    
+    
+    <Page.Resources>
+        <CollectionViewSource x:ConnectionId='2' x:Name="NotesCollection" 
+                                                 >
+        </CollectionViewSource>
+
+        <DataTemplate x:ConnectionId='3' x:Name="NotesTemplate"                              >
+            <StackPanel x:ConnectionId='4' Orientation="Horizontal" Margin="6">
+                <TextBlock x:ConnectionId='5'                      ></TextBlock>
+            </StackPanel>
+        </DataTemplate>
+    </Page.Resources>
+
+
+    <Page.TopAppBar>
+        <CommandBar>
+            <CommandBar.Content>
+                <TextBlock x:ConnectionId='6'                                                Margin="12,14"/>
+            </CommandBar.Content>
+            <AppBarButton x:ConnectionId='7' Icon="Add" Label="Add"                                      ></AppBarButton>
+            <AppBarButton x:ConnectionId='8' Icon="Save" Label="Save"                                                                               ></AppBarButton>
+            <AppBarButton x:ConnectionId='9' Icon="Edit" Label="Edit"                                                                               ></AppBarButton>
+            <AppBarSeparator/>
+
+            <AppBarButton x:ConnectionId='10' Icon="Delete" Label="Delete"                                         ></AppBarButton>
+
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:ConnectionId='11' Label="About"                                        ></AppBarButton>
+                <AppBarButton x:ConnectionId='12' Label="Exit"                                       ></AppBarButton>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.TopAppBar>
+
+    
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="280"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox x:ConnectionId='13' PlaceholderText="Search here..."                                                                                  x:Name="searchBox" Grid.Column="0" Grid.Row="0" FontSize="24"/>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="0">
+            <ListView x:ConnectionId='15' VerticalAlignment="Top"
+                ItemsSource="{Binding Source={StaticResource NotesCollection}}"
+                ItemTemplate="{Binding Source={StaticResource NotesTemplate}}"
+                                                                         />
+        </ScrollViewer>
+
+
+        <ScrollViewer Grid.Row="0" Grid.Column="1" Grid.RowSpan="2">
+            <TextBox x:ConnectionId='14'  x:Name="noteTextbox"                                               PlaceholderText="Type your note here..." IsSpellCheckEnabled="True"  
+                      AcceptsReturn="True" TextWrapping="Wrap" IsReadOnly="True" FontSize="16"/>
+        </ScrollViewer>
+
+
+        
+        
+    </Grid>
+</Page>
+
